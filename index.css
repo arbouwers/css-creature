@@ -1,0 +1,270 @@
+body {
+  background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/05/Jungle-Wallpaper-Backgrounds.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 60px;
+  align-items: center;
+  margin-top: 260px;
+}
+
+.face {
+  border: 2px solid black;
+  border-radius: 50% 50% 46% 46%;
+  background-color: white;
+  position: absolute;
+  height: 300px;
+  width: 340px;
+  z-index: 2;
+  display: flex;
+}
+
+.ears {
+  display: flex;
+  justify-content: space-between;
+  width: 330px;
+}
+
+.left-ear {
+  border: 2px solid black;
+  border-radius: 48%;
+  background-color: black;
+  height: 80px;
+  width: 100px;
+  position: relative;
+  top: 34px;
+}
+
+.right-ear {
+  border: 2px solid black;
+  border-radius: 48%;
+  background-color: black;
+  height: 80px;
+  width: 100px;
+  position: relative;
+  top: 34px;
+}
+
+.left-eye {
+  border: 1px solid black;
+  border-radius: 76% 50% 46% 46%;
+  background-color: black;
+  height: 100px;
+  width: 70px;
+  position: relative;
+  top: 100px;
+  left: 80px;
+}
+
+.inner-left {
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  top: 14px;
+  left: 16px;
+}
+
+.pupil-left {
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: black;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 5px;
+  left: 6px;
+}
+
+.highlight-left {
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: white;
+  height: 8px;
+  width: 8px;
+  position: relative;
+  top: 6px;
+  left: 6px;
+}
+
+.right-eye {
+  border: 1px solid black;
+  border-radius: 50% 76% 46% 46%;
+  background-color: black;
+  height: 100px;
+  width: 70px;
+  position: relative;
+  top: 100px;
+  left: 120px;
+}
+
+.inner-right {
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  top: 14px;
+  left: 10px;
+}
+
+.pupil-right {
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: black;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 5px;
+}
+
+.highlight-right {
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: white;
+  height: 8px;
+  width: 8px;
+  position: relative;
+  top: 6px;
+  left: 6px;
+}
+
+.nose {
+  border: 1px solid black;
+  border-radius: 50% 50% 36% 36%;
+  background-color: black;
+  height: 30px;
+  width: 50px;
+  position: relative;
+  top: 200px;
+  left: 3px;
+}
+
+.nose-highlight {
+  border: 1px solid white;
+  border-radius: 21% 70% 16% 46%;
+  background-color: white;
+  height: 3px;
+  width: 17px;
+  position: relative;
+  top: 6px;
+  left: 23px;
+}
+
+.vertical-line {
+  height: 15px;
+  width: 2.5px;
+  background-color: black;
+  position: relative;
+  top: 26px;
+  left: 24px;
+}
+
+.curved-line-left {
+  border-bottom: 2.5px solid black;
+  border-radius: 40px;
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 9px;
+  left: 6px;
+  z-index: -1;
+}
+
+.curved-line-right {
+  border-bottom: 2.5px solid black;
+  border-radius: 40px;
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: -13px;
+  left: 24px;
+  z-index: -1;
+}
+
+.body {
+  border: 8px solid black;
+  border-radius: 48%;
+  background-color: white;
+  height: 290px;
+  width: 310px;
+  z-index: 0;
+  position: relative;
+  top: 120px;
+}
+
+.left-arm {
+  border: 1px solid black;
+  border-radius: 80% 0% 80% 30%;
+  background-color: black;
+  height: 100px;
+  width: 110px;
+  position: relative;
+  top: 66px;
+  right: 44px;
+}
+
+.right-arm {
+  border: 1px solid black;
+  border-radius: 0% 80% 30% 80%;
+  background-color: black;
+  height: 100px;
+  width: 110px;
+  position: relative;
+  top: -39px;
+  left: 230px;
+}
+
+.left-leg {
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: black;
+  width: 130px;
+  height: 130px;
+  position: relative;
+  top: -20px;
+}
+
+.inner-left-leg {
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 19px;
+  left: 18px;
+}
+
+.right-leg {
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: black;
+  width: 130px;
+  height: 130px;
+  position: relative;
+  left: 180px;
+  top: -150px;
+}
+
+.inner-right-leg {
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 9px;
+  top: 16px;
+}
